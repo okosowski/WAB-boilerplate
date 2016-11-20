@@ -25,6 +25,7 @@
     "html-webpack-plugin": "^2.24.1",
     "ng-annotate": "^1.2.1",
     "webpack": "^1.13.3",
-    "webpack-dev-server": "^1.16.2"
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^0.17.0"
   }
 }
