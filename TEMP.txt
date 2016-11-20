@@ -1,0 +1,2 @@
+    "build": "NODE_ENV=production node ./node_modules/.bin/webpack",
+webpack --progress --colors --watch
