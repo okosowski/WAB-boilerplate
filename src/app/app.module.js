@@ -1,8 +1,6 @@
-const foo = 'cos';
-console.log(foo);
-
 import angular from "angular";
 import "angular-ui-router";
+import './style/app.scss';
 
 import {AppComponent} from './app.component';
 import routesConfig from './app.routes';
