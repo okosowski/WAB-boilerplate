@@ -42,7 +42,9 @@ module.exports = {
     filename: "bundle.js",
     pathinfo: true
   },
-
+  devServer: {
+    historyApiFallback: true
+  },
   entry: {
     index: "./src/app/app.module.js",
     vendor: Object.keys(pkg.dependencies)
