@@ -23,8 +23,3 @@ to set NODE_ENV on windows
 
 to set NODE_ENV on osX or linux
 `export NODE_ENV=development`
-
-
-TODO
------
-- minify all files in production mode

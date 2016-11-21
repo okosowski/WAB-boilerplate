@@ -56,6 +56,12 @@ module.exports = {
     pathinfo: true
   },
   devServer: {
+    // proxy: {
+    //   '/api': {
+    //     target: 'http://someHost.com:somePort',
+    //     secure: false
+    //   }
+    // },
     historyApiFallback: true
   },
   entry: {
