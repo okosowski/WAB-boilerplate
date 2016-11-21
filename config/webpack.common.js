@@ -28,7 +28,10 @@ module.exports = {
       {
         test: /\.(jpg|jpeg|png|svg)$/,
         loader: 'file-loader'
-      }
+      },
+      { test: /\.(woff|woff2)$/,  loader: "url-loader?limit=10000&mimetype=application/font-woff" },
+      { test: /\.ttf$/,    loader: "file-loader" },
+      { test: /\.eot$/,    loader: "file-loader" },
     ]
   },
 
@@ -37,6 +40,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.join(__dirname, '..', '/src/index.html'),
       inject: true
+    }),
+    new webpack.ProvidePlugin({
+      jQuery: 'jquery',
+      $: 'jquery',
+      jquery: 'jquery'
     })
   ],
   postcss: () => [autoprefixer],

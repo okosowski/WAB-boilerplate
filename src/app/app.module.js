@@ -2,6 +2,9 @@ import angular from "angular";
 import "angular-ui-router";
 import './style/app.scss';
 
+// https://github.com/shakacode/bootstrap-loader
+import 'bootstrap-loader';
+
 import {AppComponent} from './app.component';
 import routesConfig from './app.routes';
 import appRun from './app.run';
