@@ -6,7 +6,7 @@
   "scripts": {
     "clear": "rm -rf ./node_modules ./dist",
     "build": "./node_modules/.bin/webpack --progress --colors",
-    "webpack-dev-server": "./node_modules/.bin/webpack-dev-server --config=./webpack.config.js --port=3000 --inline --hot --progress --colors",
+    "start": "./node_modules/.bin/webpack-dev-server --config=./webpack.config.js --port=3000 --inline --hot --progress --colors",
     "watch": "./node_modules/.bin/webpack --progress --colors --watch"
   },
   "author": "",
